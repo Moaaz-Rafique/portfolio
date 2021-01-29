@@ -5,7 +5,7 @@ var imgArr=[]
 for(var i=0;i<14;i++){
     imgArr.push(`images/${i+1}.png`)
 
-    gallery.innerHTML += `<div class="pics" id="${i}" onclick='imagePressed(this.id)'><img src="images/${i+1}.png" alt="galleryimage"></div>`
+    gallery.innerHTML += `<div class="pics" id="${i}" onclick='imagePressed(this.id)'><img src="thumbnails/${i+1}.png" alt="galleryimage"></div>`
 }
 function imagePressed(id){
 
